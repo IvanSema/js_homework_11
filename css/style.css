@@ -1,0 +1,135 @@
+body {
+  background: #ffffff;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+  border: none;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea,
+select {
+  outline: none;
+  font-family: Arial;
+  font-size: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: underline;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, h2 {
+  font-size: 20px;
+  padding: 0 0 10px 0;
+  color: #545454;
+}
+
+.mainer {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/b96e2263-9624-41a5-a4d4-1ba267c8c4ac.jpg);
+  background-size: cover;
+  padding: 30px;
+}
+
+.mainer .headline {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  color: #303030;
+  margin: 0 auto;
+}
+
+.mainer .headline-text {
+  display: block;
+  margin: 0 auto;
+  font-size: 86px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 90px;
+  margin: 0 auto 50px auto;
+}
+
+.mainer .slick-prev:before,
+.mainer .slick-next:before {
+  display: none;
+}
+
+.mainer .slick-prev,
+.mainer .slick-next {
+  width: 50px;
+  height: 50px;
+  z-index: 5;
+}
+
+.mainer .slick-prev, .mainer .slick-prev:hover, .mainer .slick-prev:focus {
+  left: -20px;
+  height: 96px;
+  width: 96px;
+  border: 2px solid #242424;
+  border-radius: 50%;
+  background-image: url(../images/left.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mainer .slick-next, .mainer .slick-next:hover, .mainer .slick-next:focus {
+  right: -20px;
+  height: 96px;
+  width: 96px;
+  border: 2px solid #242424;
+  border-radius: 50%;
+  background-image: url(../images/right.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mainer .responsive {
+  padding: 0 60px;
+}
+
+.mainer .slide {
+  width: 400px;
+  height: 440px;
+  margin: 20px;
+  background-size: cover;
+}
+
+.mainer .slide-first {
+  background-image: url(../images/first-slide.jpg);
+}
+
+.mainer .slide-second {
+  background-image: url(../images/second-slide.jpg);
+}
+
+.mainer .slide-third {
+  background-image: url(../images/third-slide.jpg);
+}
+
+.mainer .slide-fourth {
+  background-image: url(../images/fourth-slide.jpg);
+}
+/*# sourceMappingURL=style.css.map */
